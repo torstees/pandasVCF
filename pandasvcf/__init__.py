@@ -3,6 +3,7 @@ import pandas as pd
 from pandasvcf.variant_annotations import process_variant_annotations, mp_variant_annotations
 from pandasvcf.vcf_metadata import VCFMetadata
 
+__version__ = '0.5.1'
 
 class VCF(object):
     """Loads in a vcf file, aware of gzipped files.
